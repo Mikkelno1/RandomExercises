@@ -97,4 +97,39 @@ public class LoopExercises {
             }
         }
     }
+
+    public static void cupsOfCoffee(){
+        int coffee = 12;
+        for (int i = 12; i > 0; i--){
+            coffee -= 1;
+            System.out.println(coffee);
+            if (coffee == 0){
+                System.out.println("Done");
+            }
+        }
+    }
+
+    public static void cupsOfCoffeeDelivery(){
+        int coffee = 12;
+        int office = 1;
+
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 4; j++) {
+                coffee -= 1;
+                System.out.println(coffee);
+            }
+            System.out.println("Done with office " + office);
+            office++;
+        }
+
+    }
+
+    public static void newTriangle(){
+        for (int i = 0; i < 4; i++){
+            System.out.println();
+            for (int j = 0; j <= i; j++){
+                System.out.print("*");
+            }
+        }
+    }
 }

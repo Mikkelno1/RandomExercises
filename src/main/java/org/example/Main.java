@@ -10,6 +10,9 @@ public class Main {
         //LoopExercises.rightAngledTriangle();
         //LoopExercises.evenOdd();
         //LoopExercises.secretNumber();
+        //LoopExercises.cupsOfCoffee();
+        //LoopExercises.cupsOfCoffeeDelivery();
+        //LoopExercises.newTriangle();
         //ArrayExercises.arraySorting();
         //ArrayExercises.arraySortingMathMin();
         //ArrayExercises.arraySortingBoolean();
@@ -25,6 +28,9 @@ public class Main {
         //ArrayExercises.arraySwitchToRight();
         //ArrayExercises.arraySmallestAndLargest();
         //ArrayExercises.arrayHowManyAboveAverage();
+        //ArrayExercises.arrayDouble();
+        //ArrayExercises.arrayGrades();
+        ArrayExercises.twoDArrayTriangle();
         //AlgorithmExercises.maxOfThree();
         //AlgorithmExercises.arrayEvenAndOdd();
         //AlgorithmExercises.reverseOrder();

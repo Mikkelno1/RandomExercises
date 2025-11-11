@@ -224,5 +224,56 @@ public class ArrayExercises {
         System.out.println(counter);
     }
 
+    public static void arrayDouble() {
+        int[] scores = {5,8,2,10};
+
+        for (int i = 0; i < scores.length; i++){
+            scores[i] = scores[i]*2;
+            System.out.println(scores[i]);
+        }
+    }
+
+    public static void arrayGrades(){
+        int[] grades = {55,72,89,41,63};
+        double sum = 0;
+        double average;
+
+        for (int i = 0; i < grades.length; i++){
+            grades[i] = grades[i]+5;
+            sum += grades[i];
+        }
+        average = sum / grades.length;
+        if (average >= 60){
+            System.out.println(average);
+            System.out.println("Class passed!");
+        } else {
+            System.out.println("Class failed");
+        }
+
+    }
+
+    public static void twoDArrayTriangle(){
+        int row = 4;
+        int column = 4;
+
+        String [][] triangle = new String[row][column];
+        for (int i = 0; i < row; i++){
+            for (int j = 0; j < column; j++){
+                if (j <= i) {
+                    triangle[i][j] = "*";
+                } else {
+                    triangle[i][j] = " ";
+                }
+                System.out.printf("%2s", triangle[i][j]);
+            }
+            System.out.println();
+        }
+
+    }
+
+
+
+
+
 
 }
